@@ -5,9 +5,11 @@ html, body{
 p, h2{
     margin: 0;
 }
+/* change header color */
 .headerContainer{
     background-color: #2E2E2E;
 }
+/* display header items */
 .headerContainer ul{
     display: flex;
     justify-content: space-around;
@@ -15,7 +17,7 @@ p, h2{
     list-style-type: none;
     text-decoration: none;
 }
-
+/* set dashboard */
 .dashboard{
     display: flex;
     flex-direction: column;
@@ -33,9 +35,9 @@ p, h2{
     justify-content: space-around;
 }
 .CoinItemRank{
-    width: 30px; /* Adjust as needed */
-    height: 30px; /* Adjust as needed */
-    border-radius: 50%; /* This makes it a circle */
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
     text-align: center;
     color: white;
 }
